@@ -37,9 +37,10 @@ h2 {
 p {
     font-size: 1.2em;
     font-weight: bold;
+    margin-top: 10px;
 }
 /***************************************************/
-/*     Sections CSS                                    */
+/*     Sections CSS for Home Page Only                */
 /***************************************************/
 #sections {
     display: inline-block;
@@ -78,4 +79,20 @@ p {
 #projectshead, #abouthead, #testimonialshead {
     position: relative; 
     top: -70px;
+}
+/***************************************************/
+/*   Testimonials CSS for testimonial page Only    */
+/***************************************************/
+#lefttest {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 150px;
+
+}
+#righttest {
+    position: relative;
+    top: 200px;
+    left: 500px;
+    width: 150px
 }
